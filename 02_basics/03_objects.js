@@ -72,4 +72,19 @@ const obj4 = { 5: "a", 6: "b" }
 // console.log(obj3)
 
 const obj3 = {...obj1, ...obj2}
-console.log(obj3);
+//console.log(obj3);
+
+const user = [
+    {
+        id : 1,
+        email : "user1@gmail.com",
+    },
+    {
+        id : 1,
+        email : "user1@gmail.com",
+    },
+    {
+        id : 1,
+        email : "user1@gmail.com",
+    },
+]
