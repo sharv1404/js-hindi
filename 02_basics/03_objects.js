@@ -35,8 +35,8 @@ JsUser.greetingTwo = function(){
     console.log(`Hello JS User, ${this.name}`);  
 }
 
-console.log(JsUser.greeting());
-console.log(JsUser.greetingTwo());
+// console.log(JsUser.greeting());
+// console.log(JsUser.greetingTwo());
 
 
 //const tinderUser = new Object()
@@ -88,3 +88,13 @@ const user = [
         email : "user1@gmail.com",
     },
 ]
+
+user[1].email
+console.log(tinderUser);
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
