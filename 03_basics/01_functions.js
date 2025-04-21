@@ -26,5 +26,17 @@ addTwoNumbers(4,5)
 // addTwoNumbers(3,null) // 3
 
 const result = addTwoNumbers(3,5)
-console.log("Result = ", result);
+//console.log("Result = ", result);
 
+
+function loginUserMessage(username = "Sam"){
+    if (!username) // you can write it as(username === undefined)
+    {
+        console.log("Please enter a user name.. ");
+        return
+    }
+    return `${username} just logged in`
+}
+
+// console.log(loginUserMessage("Sharvari")) // Sharvari just logged in
+console.log(loginUserMessage()) // empty space leads to ----> undefined just logged in
