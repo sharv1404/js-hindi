@@ -38,15 +38,15 @@ function loginUserMessage(username = "Sam"){
     return `${username} just logged in`
 }
 
-// console.log(loginUserMessage("Sharvari")) // Sharvari just logged in
-//console.log(loginUserMessage()) // empty space leads to ----> undefined just logged in
+console.log(loginUserMessage("Sharvari")) // Sharvari just logged in
+console.log(loginUserMessage()) // empty space leads to ----> undefined just logged in
 
 
 function calculateCartPrice(val1, val2, ...num1){  //rest operator and spred operator
     return num1
 }
 
-//console.log(calculateCartPrice(300, 400, 500, 2000)); // [500,2000] because---> val1=300 , val2=400, ...num1=500,2000
+console.log(calculateCartPrice(300, 400, 500, 2000)); // [500,2000] because---> val1=300 , val2=400, ...num1=500,2000
 
 const user ={
     username: "Sharvari",
